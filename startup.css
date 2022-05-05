@@ -1,0 +1,57 @@
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#bghead{
+	background-image: url("startup.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+}
+
+h1{
+	font-size: 2rem;
+	opacity: 0.8;
+	font-weight: bold;
+}
+
+hr{
+	color: #F05F44;
+	/*border: 1px solid #F05F45;*/
+	border-color: #F05F44;
+	/*height: 10px;	*/
+	max-width: 65px;
+	border-width: 3px;
+}
+
+header.head1 hr{
+	/*margin: auto;*/
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+
+.btn-primary{
+	font-family: 'Montserrat', sans-serif;
+  	font-weight: 700;
+  	text-transform: uppercase;
+  	border-radius: 300px;
+}
+
+.btn{
+	background-color: #F05F44;
+  	border-color: #F05F44;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
+
+.btn-primary:hover{
+	background-color: #ee4b08;
+  	border-color: #ee4b08;
+  	cursor: pointer;
+  	border-width: 5px;
+  	/*transition: 0.2s out;*/
+}
